@@ -1,0 +1,669 @@
+#homebody {
+
+	background: url("/img/bg-top.jpg") no-repeat scroll 50% 0 #000000;
+
+}
+
+
+.zf-green {
+    color: #68b604;
+}
+
+.btn-success {
+  background-color: #57a900;
+  background-image: -moz-linear-gradient(top, #70d900, #57a900);
+  background-image: -ms-linear-gradient(top, #70d900, #57a900);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#70d900), to(#57a900));
+  background-image: -webkit-linear-gradient(top, #70d900, #57a900);
+  background-image: -o-linear-gradient(top, #70d900, #57a900);
+  background-image: linear-gradient(top, #70d900, #57a900);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#70d900', endColorstr='#57a900', GradientType=0);
+}
+
+.btn-success:hover,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+  background-color: #57a900;
+}
+
+.btn-success:active, .btn-success.active {
+  background-color: #57a900;
+}
+
+div.container a.brand {
+    background: url("../img/zf2-logo.png") no-repeat scroll 0 10px transparent;
+    margin-left: 0;
+    padding: 8px 20px 12px 40px;
+}
+
+.container
+{
+	padding:0;
+	width:970px;
+	margin:0 auto;
+
+}
+
+#home-container
+{
+}
+
+.main	{
+	float:left;
+	height:500px;
+	margin:0px;
+	padding:0;
+	font-size:18px;
+	
+}
+#wrapper{
+	position:relative;
+	padding:0px;
+	margin:0px 
+	vertical-align:bottom;
+	clear:both;
+
+}
+
+.header
+{
+	height:70px;
+	line-height:70px;
+	overflow: hidden;
+	margin:0;
+	
+}
+
+.service-bar{
+    display: inline-block;
+    float: right;
+    font-family: "Times New Roman",Arial,sans-serif;
+	font-size:22px;
+    position: relative;
+    text-align: right;
+	margin:0;
+	padding:10px auto 0;
+	
+	overflow: hidden;
+	
+}
+
+.service-cell{
+	color: #8694a1;
+    display: block;
+    float: left;
+    line-height: 32px;
+    padding: 0 7px ;
+   position: relative;
+}
+
+.notice
+{
+	height:90px;
+	background: url("/img/bnet-default-cn.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.game-bar{
+	margin:0 auto;
+	position:relative;
+	top:100px;
+	float:left;
+	padding:0;
+	text-align:center;
+
+}
+
+ul
+{
+	margin:0 auto;
+}
+.game-cell{
+	display: inline-block;
+	margin:0 35px;
+	padding:0;
+	width:250px;
+
+}
+
+
+footer
+{
+	float:left;
+	font-size:18px;
+}
+
+
+
+#game1body
+{
+	background: url("/img/game1/game1body-bg.jpg") repeat scroll 0 0 #000000;
+
+}
+
+#game1-service-bar
+{
+	background-color:black;
+	padding:0;
+	margin:0;
+}
+
+
+#search-bar
+{
+	padding:0;
+	margin:0;
+	float:right;
+	display:inline-block;
+}
+
+#search-text
+{
+	padding:0;
+
+}
+
+#search-text:focus
+{
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#logo
+{
+	margin:20px 0 0 0 ;
+}
+
+.logo-left
+{
+	display:block;	
+	height:130px;
+/*	width:290px;
+	background-img:url("/img/game1/game1-logo.jpg");
+	background: url("/img/game1/game1-logo.jpg") no-repeat scroll 0 0 #777777;
+*/
+	margin-top:-50px;
+}
+
+.logo-right
+{
+/*	float:left;
+	display:block;
+	margin:0 0 0 380px;
+	padding:0;
+*/
+}
+
+.input-group
+{
+	float:right;
+}
+
+#form-control
+{
+	border-radius: 5px;
+}
+
+.input-group-btn
+{
+	padding:0 0 0 5px;	
+	
+}
+
+#btn-default
+{
+	border-radius: 5px;
+
+}
+
+.game1main
+{
+	clear:both;
+	height:65px;
+	padding:0;
+	margin:20px 0 10px;
+	
+}
+#menu
+{
+	margin:0 ;
+	padding:0 ;
+	align-text:center;
+}
+
+#menu .menu,#menu ul
+{
+	margin:0 auto;
+	padding:0 ;
+	align-text:center;
+
+}
+
+.game1main-left
+{
+	margin:0 auto;
+	text-align:center;
+}
+#menu ul li {
+	float: left;
+	width: 104px;
+	align-text:center;
+	display:inline;
+}
+
+ol, ul {
+    list-style-type: none;
+}
+/*去掉li里文字前面的圆点*/
+
+#menu li a{
+	display:block;
+    color: #ffa400;
+    text-align: center;
+    text-transform: uppercase;
+	height:65px;
+	outline:none;
+}
+
+#menu li a span {
+    display: block;
+    font: 12px Arial,Verdana,serif;
+    padding-top: 40px;
+    position: relative;
+    text-shadow: 0 0 5px #000;
+
+}
+
+#menu li.menu-home {
+	background: url("/img/game1/menu-tab-baked.jpg") no-repeat scroll 0 0 #777777;
+}
+
+#menu li.menu-game {
+	background: url("/img/game1/menu-tab-baked.jpg") no-repeat scroll -104px 0 #777777;
+}
+
+#menu li.menu-community {
+	background: url("/img/game1/menu-tab-baked.jpg") no-repeat scroll -208px 0 #777777;
+}
+
+#menu li.menu-media {
+	background: url("/img/game1/menu-tab-baked.jpg") no-repeat scroll -312px 0 #777777;
+}
+
+#menu li.menu-forums {
+	background: url("/img/game1/menu-tab-baked.jpg") no-repeat scroll -416px 0 #777777;
+}
+
+#menu li.menu-services {
+	background: url("/img/game1/menu-tab-baked.jpg") no-repeat scroll -520px 0 #777777;
+}
+
+
+#menu li.menu-home a:hover{
+	background: url("/img/game1/menu-tab-baked.jpg") no-repeat scroll 0 -65px #777777;
+/*	background-position: 0 -65px !important;
+*/}
+
+#menu li.menu-game a:hover{
+	background: url("/img/game1/menu-tab-baked.jpg") no-repeat scroll -104px -65px #777777;
+}
+
+#menu li.menu-community a:hover{
+	background: url("/img/game1/menu-tab-baked.jpg") no-repeat scroll -208px -65px #777777;
+}
+
+#menu li.menu-media a:hover{
+	background: url("/img/game1/menu-tab-baked.jpg") no-repeat scroll -312px -65px #777777;
+}
+
+#menu li.menu-forums a:hover{
+	background: url("/img/game1/menu-tab-baked.jpg") no-repeat scroll -416px -65px #777777;
+}
+
+#menu li.menu-services a:hover{
+	background: url("/img/game1/menu-tab-baked.jpg") no-repeat scroll -520px -65px #777777;
+}
+
+
+
+#menu li.menu-home a.menu-active {
+/*	background: url("/img/game1/menu-tab-baked.jpg") no-repeat scroll 0 -130px #777777;
+都能实现功能*/	
+	background:url("/img/game1/menu-tab-baked.jpg");
+	background-position: 0 -130px !important;
+}
+
+
+
+
+.user-plate 
+{
+    background: url("/img/game1/charcard-neutral.jpg") no-repeat scroll 0 -19px rgba(0, 0, 0, 0);	
+    color: #fff;
+    height: 65px;
+	margin:0;
+	padding:0;
+	float:right;
+
+}
+
+.user-plate:hover
+{
+	background-position: 0 -103px !important;
+	
+}
+
+.user-plate .card-character {
+    bottom: 0px;
+    color: #eee;
+    display: block;
+    font-size: 14px;
+
+    line-height: 1.4em;
+	padding: 0 0 0 30px;
+    text-overflow: ellipsis;
+    z-index: 1;
+
+}
+
+.user-plate .card-character .card-portrait {
+    background: url("/img/game1/avatar-neutral.jpg") no-repeat scroll 50% 50% rgba(0, 0, 0, 0);
+    border: 1px solid #c3ff00;
+    display: block;
+    float: right;
+    height: 58px;
+    margin-right: 21px;
+    margin-top: 7px;
+    width: 58px;
+}
+
+ .user-plate .card-character .wow-login-key {
+    background: url("/img/game1/key.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 42px;
+    position: absolute;
+    right: 50px;
+    top: 31px;
+    width: 50px;
+}
+
+.user-plate .card-character .login-msg {
+    display: block;
+    float: left;
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px #555;
+    width: 210px;
+}
+
+
+
+.game1-img-news
+{
+	content: "";
+    display: block;
+	height: 300px;
+	width: 100%;
+	clear:both;
+	margin:0 0 15px 0;
+	padding:0;
+}
+
+
+
+#img-news-left
+{
+	float:left;
+	padding:0;
+	margin:0 auto;
+	text-align:center;
+}
+
+
+#img-news-left a img:hover
+{
+	border-color:#de9000;	
+}
+
+#img-news-left a img
+{
+	border: 1px solid #372511;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #000000;
+}
+
+
+#img-news-right
+{
+	float:right;
+	padding:0;
+	margin:25px auto 0;
+	text-align:center;
+	
+}
+
+#img-news-right a img:hover
+{
+	border-color:#de9000;	
+}
+
+#img-news-right a img
+{
+	border: 1px solid #372511;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #000000;
+}
+
+#carousel-example-generic
+{
+	width:640px;
+	height:300px;
+	text-align:center;	
+	border: 1px solid #372511;
+	border-radius: 8px;
+
+}
+
+.carousel-inner .item img
+{
+	border: 1px solid #372511;
+    border-radius: 8px;
+
+}
+
+.carousel-inner .item img:hover
+{
+	border-color:#de9000;	
+	
+}
+
+.game1-article-news
+{
+	margin:0;
+}
+
+.article-news-left
+{
+	margin:0;
+	padding:0;	
+}
+
+#blog-articles
+{
+	background: none repeat scroll 0 0 #2a160e;
+    padding: 0 20px;	
+	width:100%;
+	height:100%;
+	display:inline-block;
+}
+
+.article-wrapper
+{
+	font-family: 微软雅黑,Microsoft YaHei,Helvetica,Tahoma,StSun,宋体,SimSun,sans-serif !important;
+    font-size: 13px;
+    text-align: left;		
+	padding:20px 0;
+	width:100%;
+	border-top: 1px solid #3a2015;
+    box-shadow: 0 -1px 0 #1b100d;
+	float:left;
+
+}
+
+.clear
+{
+	clear:both;
+	margin:0;
+	padding:0;
+	display:block;
+}
+
+.article-image 
+{
+	background-position: center center;
+    background-size: cover;
+    border: 1px solid #483a30;
+    border-radius: 3px;
+    box-shadow: 0 0 1px 1px #000 inset;
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+
+.article-content
+{
+	float:left;	
+	width:410px;
+	padding:0 0 0 20px;
+}
+
+.blog-articles .article-wrapper .article-content .header-2 
+{
+    display: block;
+    font-size: 18px;
+	color: #f5ebd1;
+    letter-spacing: -0.5px;
+    line-height: 21px;
+    margin: -1px 0 3px;
+}
+
+.blog-articles .article-wrapper .article-content .article-summary
+{
+    font-family: 微软雅黑,Microsoft YaHei,Helvetica,Tahoma,StSun,宋体,SimSun,sans-serif !important;
+    font-size: 13px;
+	color: #a99877;
+    line-height: 19px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    float: left;
+}
+.blog-articles .article-wrapper .article-content .article-summary a
+{
+	color:#a99877;
+}
+
+.article-news-right
+{
+	padding:0 10px;
+	float:left;
+	
+}
+
+.article-news-right .sidebar-link
+{
+	display:block;
+	border: 1px solid #372511;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #000000;
+    display: block;
+    font-size: 0;
+    margin: 10px auto 0;
+	height: 50px;
+    width: 302px;
+}
+
+.article-news-right .sidebar-link:hover
+{
+	background-position:center bottom;
+	border-color:#cd9000;
+}
+
+#form-home-register
+{
+/*	background: url("/img/game1/game1body-bg.jpg") repeat scroll 0 0 #000000;
+*/	font-family: 微软雅黑,Microsoft YaHei,Helvetica,Tahoma,StSun,宋体,SimSun,sans-serif !important;
+	
+	font-style: normal !important;
+    letter-spacing: 0 !important;
+    text-transform: none !important;
+	color: #777777;
+/*	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+*/	font-size: 18px;
+    line-height: 1.6;
+}
+
+.register-input .control-label
+{
+	width:35%;
+	padding:0 20px 0 0;
+		
+}
+
+.register-input input
+{
+	width:30%;	
+}
+
+#form-home-register-sexuality fieldset
+{
+	display:inline-block;
+	width:100%;
+	magin:0;
+	padding:0;
+}
+
+#form-home-register-sexuality legend
+{
+	color:#777777;
+	display:inline-block;
+	width:35%;
+	text-align:right;
+	padding:0 20px 0 0;
+	margin-bottom:0;
+	float:left;
+	border:none;
+}
+
+#form-home-register-sexuality label 
+{
+	display:inline-block;
+	float:left;
+	width:8%;
+	text-align:left;
+}
+
+#form-home-register-sexuality input 
+{
+/*	display:inline;
+	width:7%;
+*/
+}
+
+
+#form-home-register-question label
+{
+	width:100%;
+	
+}
+
+#form-home-register-question span
+{
+	width:35%;
+	padding:0 20px 0 0 ;
+	text-align:right;
+	display:inline-block;
+}
+
+#form-home-register-question select
+{
+	width:30%;
+}

@@ -1,0 +1,30 @@
+<div id="form-home-login">
+<?php 
+
+//	print_r( $this->register_form);
+	
+	$form = $this->login_form;
+	$form->prepare();
+	echo $this->form()->openTag($form);
+
+	
+	?>
+	
+	<div id="form-home-login-username" class=" login-input form-group">
+	<?php 
+	echo $this->formRow($form->get('username')); ?></div>
+	
+	<div id="form-home-login-password" class=" login-input form-group">
+	<?php 
+	echo $this->formRow($form->get('password')); ?></div>
+	
+	
+	<div id="form-home-login-submit">
+	<?php 
+	echo $this->formSubmit($form->get('submit')); ?></div>
+	
+	<?php 
+	echo $this->form()->closeTag();
+?>
+
+</div>
