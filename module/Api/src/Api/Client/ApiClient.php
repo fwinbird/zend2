@@ -28,8 +28,7 @@ class ApiClient {
      * @var string
      */
 
-	protected static $endpointHost = 'http://localhost.shaguangyu-api';
-//	protected static $endpointHost = 'http://localhost.game';     
+	protected static $endpointHost = 'http://localhost/zend2-api';
     protected static $endpointUsers = '/users/';
     protected static $endpointRegisterUser = '/user/register';/////////////////////////
 
