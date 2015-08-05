@@ -31,6 +31,7 @@ class ApiClient {
      */
     protected static $endpointHost = 'http://localhost.zend2-api';
     protected static $endpointWall = '/api/wall/%s';
+//    protected static $endpointWall = '/api/wall/';
     
     /**
      * Perform an API reqquest to retrieve the data of the wall
@@ -42,6 +43,7 @@ class ApiClient {
     public static function getWall($username)
     {
         $url = self::$endpointHost . sprintf(self::$endpointWall, $username);
+//        die($url);
         return self::doRequest($url);
     }
     
