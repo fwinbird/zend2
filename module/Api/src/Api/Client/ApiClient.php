@@ -43,8 +43,9 @@ class ApiClient {
     public static function getWall($username)
     {
         $url = self::$endpointHost . sprintf(self::$endpointWall, $username);
-//        die($url);
-        return self::doRequest($url);
+//        die('username:'.$username);
+//        return self::doRequest($url);
+        return self::doRequest($url, NULL, Request::METHOD_GET);
     }
     
     /**
@@ -87,20 +88,19 @@ class ApiClient {
      */
     protected static function doRequest($url, array $postData = null, $method = Request::METHOD_GET)
     {
-        $client = self::getClientInstance();
+    	$client = self::getClientInstance();
         $client->setUri($url);
         $client->setMethod($method);
-        
-        if ($postData !== null) {
-            $client->setParameterPost($postData);
+
+        if ($postData !== null) {      
+        	$client->setParameterPost($postData);
         }
         
         $response = $client->send();
-        
         if ($response->isSuccess()) {
-            return JsonDecoder::decode($response->getBody(), Json::TYPE_ARRAY);
+        	return JsonDecoder::decode($response->getBody(), Json::TYPE_ARRAY);
         } else {
-            $logger = new Logger;
+        	$logger = new Logger;
             $logger->addWriter(new Stream('data/logs/apiclient.log'));
             $logger->debug($response->getBody());
             return FALSE;
